@@ -1,0 +1,24 @@
+h1 span {
+    color: rgb(108, 21, 201);
+}
+.my-button {
+    background-color: rgb(108, 21, 201);
+    width: 280px;
+    height: 60px;
+}
+header {
+    background-image: url("../moroccan-flower-dark.png");
+    background-repeat: repeat;
+}
+header div h1 {
+    font-size: 75px;
+}
+.spacer {
+    opacity: 0.25;
+}
+@media screen and (max-width: 576px) {
+    .spacer {
+        opacity: 0;
+    }
+    
+}
